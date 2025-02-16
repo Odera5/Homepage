@@ -160,12 +160,14 @@ p {
     display: block;
   }
   .Project {
-    width: 1400px;
+    width: 450px;
   }
   #icon {
+    margin-right: 175px;
     display: flex;
     gap: 10px;
   }
+
   #git,
   #link,
   #twit {
@@ -173,7 +175,7 @@ p {
   }
   #work {
     display: flex;
-    justify-content: center;
+    margin-left: 150px;
     font-size: 30px;
   }
   #section {
@@ -182,16 +184,29 @@ p {
     top: -5px;
     box-shadow: none;
 
-    width: 1370px;
+    width: 421px;
   }
   #footer {
-    width: 1400px;
+    width: 450px;
+    display: block;
+    height: 400px;
+  }
+  #icon2 {
+    position: relative;
+    left: 100px;
+    width: 30px;
+  }
+  #img2 {
+    position: relative;
+    top: 80px;
+    right: 0px;
+    width: 450px;
   }
   #header {
     display: block;
-    margin-bottom: 300px;
+    margin-bottom: 400px;
     position: relative;
-    width: 1400px;
+    width: 450px;
   }
   body {
     width: 700px;
@@ -199,7 +214,7 @@ p {
   #github {
     width: 20px;
     position: relative;
-    left: 700px;
+    left: 200px;
     padding: 5px;
   }
   p {
@@ -207,9 +222,9 @@ p {
   }
   #text {
     margin-top: -20px;
-    width: 1400px;
+    width: 450px;
     box-shadow: 1px 1px 4px grey;
     height: 150px;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
   }
 }
