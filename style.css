@@ -198,7 +198,7 @@ p {
   }
   #img2 {
     position: relative;
-    top: 80px;
+    top: 50px;
     right: 0px;
     width: 450px;
   }
@@ -209,7 +209,9 @@ p {
     width: 450px;
   }
   body {
-    width: 700px;
+    width: 350px;
+    position: relative;
+    left: 8px;
   }
   #github {
     width: 20px;
